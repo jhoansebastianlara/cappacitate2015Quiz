@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:textColor="@color/gray"
+            android:id="@+id/textTop"
+            android:padding="10dp"
+            android:layout_gravity="center_vertical|right"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <Button
+                android:background="@drawable/style_button"
+                android:id="@+id/buttonA"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/option_a"
+                android:onClick="sendResponse"
+                android:tag="A"
+                style="@style/button_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <Button
+                android:background="@drawable/style_button"
+                android:id="@+id/buttonB"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/option_b"
+                android:onClick="sendResponse"
+                android:tag="B"
+                style="@style/button_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <Button
+                android:background="@drawable/style_button"
+                android:id="@+id/buttonC"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/option_c"
+                android:onClick="sendResponse"
+                android:tag="C"
+                style="@style/button_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <Button
+                android:background="@drawable/style_button"
+                android:id="@+id/buttonD"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/option_d"
+                android:onClick="sendResponse"
+                android:tag="D"
+                style="@style/button_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <Button
+                android:background="@drawable/style_button"
+                android:id="@+id/buttonE"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/option_e"
+                android:onClick="sendResponse"
+                android:tag="E"
+                style="@style/button_text" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <!--<EditText
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:hint="@string/give_us_comments"
+            android:id="@+id/comment"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="35dp"
+            android:radius="5dp"
+            android:color="#44433A"
+            android:textColorHint="#FFFFFF"
+            android:textColor="#FFFFFF"/>-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+       <!-- <Button
+            android:background="@drawable/style_button"
+            android:id="@+id/buttonComment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/send_comment"
+            android:onClick="sendComment"
+            style="@style/button_text" />-->
+
+    </LinearLayout>
+
+</LinearLayout>
